@@ -2,23 +2,83 @@
 <html lang="en">
 
 <!--
-WRITTEN BY: Your name here
-EMAIL: Your email here
+WRITTEN BY: Wenshuo Wang  
+EMAIL: wenshuow
 -->
 
 <head>
   <meta charset="utf-8">
-  <meta name="author" content="Your name here">
-  <meta name="description" content="description of your page">
+  <meta name="author" content="Wenshuo Wang">
+  <meta name="description" content="Personal portfolio website">
    <!-- you would link to an external stylesheet here! -->
+   <link rel="stylesheet" href="css/styles.css">
    <!-- you would also link to Bootstrap here! -->
-  <title>title here</title>
+  <title>Wenshuo Wang | Portfolio</title>
 </head>
+
 <body>
-  <p>
-    <a href="http://validator.w3.org/check?uri=referer">
-       W3C validator
-    </a>
-  </p>
+  <header>
+    <h1>Wenshuo Wang</h1>
+    <nav>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label">&#9776;</label>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<main>
+      <section class="hero">
+        <div class="hero-text">
+          <h2>About Me</h2>
+          <p>
+            I am a Computer Science student at the University of California, Irvine. I am passionate about web development, software engineering, and building projects that combine creativity with practical coding skills.
+           
+        </div>
+
+        <div class="hero-image">
+          <img src="images/wenshuo.jpg" alt="Portrait of Wenshuo Wang">
+        </div>
+
+        <div class="hero-skills">
+          <h2>Programming Languages</h2>
+          <ul>
+            <li>C++</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>Currently learning: HTML</li>
+          </ul>
+        </div>
+      </section>
+
+
+    <section class="highlights">
+      <div class="highlight">
+        <h3><a href="projects.html">Projects</a></h3>
+        <p>Check out my web development, C++, and side projects.</p>
+      </div>
+      <div class="highlight">
+        <h3><a href="resume.html">Resume</a></h3>
+        <p>View or download my resume in PDF format.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>If you want to reach out, email me at 
+        <a href="mailto:wenshuow@uci.edu">wenshuow@uci.edu</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      <a href="http://validator.w3.org/check?uri=referer">W3C Validator</a>
+    </p>
+  </footer>
 </body>
 </html>
