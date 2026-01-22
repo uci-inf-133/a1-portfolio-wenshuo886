@@ -68,4 +68,4 @@ I didn't copy or share any code; I just learned what elements could be used.
 
 7. Is there anything special we need to know in order to run your code?
 -In the Projects page, clicking on the colored text will take you to the corresponding link.
--I've listed some of my projects and brief descriptions, along with links, but all the projects are private.
+-I've listed some of my projects and descriptions, along with links, but all the projects are private.
